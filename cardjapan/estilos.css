@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    display: flex;justify-content: center;align-items: center;
+}
+
+.celeste{
+    background-color: #6da0ca;
+    height: 600px;
+    width: 800px;
+    display: flex;justify-content: center;align-items: center;
+}
+
+.card{
+    display: block; justify-content: center; align-items: center;
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 12px;
+}
+.fotouno{
+    position: absolute;
+    background-color: rgb(235, 111, 111);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: 10px;    
+}
+
+.fotodos{
+    position: absolute; 
+    background-color: rgb(116, 151, 248);
+    color: white;
+    height: 25px;
+    width: 80px;
+    border-radius:7px;
+    margin-top: 150px;
+    margin-left: 10px;
+    display: flex;  justify-content: center; align-items: center;
+    border: rgb(136, 144, 255) 1px solid;
+}
+
+.fotouno p{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+.imagen img{
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.titulo{
+    display: block;
+}
+
+.titulo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: black;
+}
+
+.titulo p.subtitulo{
+    font-size: 15px;
+    margin-left: -115px;
+    margin-top: -20px;
+    color: rgb(170, 170, 170);
+}
+
+.cajasgrises{
+    display: flex;
+
+}
+
+.parteblanca{
+    margin-left: 20px;
+    color: rgb(170, 170, 170);
+}
+
+.cajagris{
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    margin:3px;
+    margin-left: 0;
+    background-color: rgb(199, 199, 199);
+    color: white;
+    display: flex;justify-content: center;
+    align-items: center;
+    
+}
+
+.lineagris{
+    height: 1px;
+    width: 250px;
+    background-color:rgb(204, 201, 201);
+    margin: 25px;
+    margin-top: 20px;
+    margin-bottom:0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top:25px;
+}
